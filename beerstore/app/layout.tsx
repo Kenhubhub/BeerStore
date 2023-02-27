@@ -12,6 +12,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+              <link
+                href="https://assets.ao.com/design-system/assets/fonts/v1/fonts.css"
+                type="text/css"
+                rel="stylesheet"
+              />
+              <link
+                href="https://assets.ao.com/design-system/assets/icons/v1/strata-icons.css"
+                type="text/css"
+                rel="stylesheet"
+              />
+              <link
+                href="https://assets.ao.com/design-system/assets/css/v2/strata.css"
+                type="text/css"
+                rel="stylesheet"
+              />
+      </head>
       <body>{children}</body>
     </html>
   )
